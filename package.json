@@ -11,7 +11,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "postinstall": "ng build --service-worker -c-1 dist/fitness-tracker"
+    "postinstall": "ng build -c-1 dist/fitness-tracker"
   },
   "private": true,
   "dependencies": {
